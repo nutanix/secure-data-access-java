@@ -1,0 +1,25 @@
+# Build output
+target/
+
+# Proto is intentionally NOT published: it is kept locally, regenerated into
+# src/main/generated via `mvn generate-sources`, and only the generated Java is
+# committed. Keeping it out of the repo hides the wire contract.
+src/main/proto/
+*.proto
+
+# IDE / editor
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+
+# Local secrets / certs
+ca.pem
+*.pem

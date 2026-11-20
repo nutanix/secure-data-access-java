@@ -1,0 +1,5 @@
+# Vendored protobuf/gRPC stubs. Regenerated from the (unpublished) .proto via
+# `mvn generate-sources`; never hand-edited. Marking them generated collapses
+# them in GitHub PR diffs and excludes them from language stats, so reviewers
+# can skip them.
+src/main/generated/** linguist-generated=true
